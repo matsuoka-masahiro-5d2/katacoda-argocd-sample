@@ -20,7 +20,7 @@ spec:
     chart: podinfo
     helm:
       values: |
-        replicaCount: 4
+        replicaCount: 2
         image:
           tag: 6.0.5
         ui:
